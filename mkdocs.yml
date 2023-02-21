@@ -1,0 +1,63 @@
+site_name: Quebec 1000
+nav:
+    - Home: index.md
+    - About: about.md
+
+# requires mkdocs-material python package. You can install it via pip.
+theme:
+  name: material
+  logo: assets/Q1K-Logo-Final-Horizontal.svg
+  favicon: assets/q1k-favicon.ico
+  features:
+        - navigation.tabs
+        - navigation.instant  # Load pages via XMLHttpRequest (XHR)
+        - navigation.tracking
+  palette:
+
+  # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+  # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/scott-huberty/Q1K-protocol
+          name: GitHub repository
+        - icon: fontawesome/brands/facebook
+          link: https://www.facebook.com/TransformingAutismCare
+          name: Transforming Autism Care on Facebook
+        - icon: fontawesome/brands/linkedin
+          link: https://www.linkedin.com/company/rtsa-tacc/
+          name: Transforming Autism Care on LinkedIn
+    
+    # Needed for version control of website. requires mike python package.
+    version:
+      provider: mike
+      default: stable
+
+# requires markdown & pymdown-extensions python packages. Install with pip.
+markdown_extensions:
+    - admonition
+    - abbr
+    - attr_list  # Allows to turn any element into a button
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+  
