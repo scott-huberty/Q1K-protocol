@@ -56,7 +56,9 @@ markdown_extensions:
     - admonition
     - abbr
     - attr_list  # Allows to turn any element into a button
+    - md_in_html  # markdown in html
     - pymdownx.details
+    - pymdownx.mark
     - pymdownx.emoji:
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
