@@ -4,7 +4,7 @@
 
 Lorem markdownum mora, ire est aliter currus mitte: aditus iusta intus lacte.
 Effugit a Romam saxaque vivacisque, et Minos labori miserata latius requieverit
-feriam, arva lactis mensam mihi madefactaque imago.
+feriam, arva lactis mensam mihi madefactaque imago..
 
 1. Quae stridet
 2. Iram locuta Eryx ferrum mihi
